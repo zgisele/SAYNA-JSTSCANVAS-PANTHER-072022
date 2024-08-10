@@ -1,0 +1,402 @@
+@import url("Enigme.css");
+
+/* #black_panther{
+
+} */
+.ligne-deco{
+    display: flex;
+    /* border: 3px solid yellow; */
+    width: 30px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: -100px;
+    gap: 20px;
+    
+}
+
+.barre-simple{
+    /* display: flex; */
+    border: 1px solid  #9E91B7 ;
+   height: 100%;
+   width: 0px;
+
+}
+
+.bloc_reseaux{
+    display: block;
+    justify-content: center;
+    
+}
+.reseaux{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    /* gap: 10px; */
+    /* border: 3px solid  #8e0a0d ; */
+    margin-left:-10px ;
+   
+
+    
+}
+.reseaux img{
+    transition: filter 0.3s ease-in-out;
+    
+}
+.reseaux img:hover{
+    filter: brightness(0) invert(1);
+   
+}
+
+.barre-reseaux{
+   
+    border: 1px solid  #9E91B7 ;
+   height: 50%;
+   width: 0px;
+
+}
+/* #black_panther{
+    border: 7px solid red;
+} */
+.bloc-black_panther{
+    display: flex;
+    margin: 0px  100px;
+    /* border: 3px solid rgb(144, 89, 12); */
+    margin-top: -300px;
+    padding-left: 20px;
+
+}
+
+.black_panther_image {
+    width: 100%;
+    background-image: url('Illustrations + Logo/Accueil/Pantherhome1..png');
+    height:500px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+
+}
+.intro_black_panther h1{
+    color: #9E91B7 ;
+    /* border: 3px solid rgb(22, 148, 27); */
+    font-family:'Panthera';
+    font-size: 50px;
+    margin-top: 130px;
+
+
+}
+.intro_black_panther h2{
+    color: #9E91B7 ;
+    /* border: 3px solid rgb(22, 148, 27); */
+    font-family:'BEYNO' ;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.intro_black_panther p{
+    color: #ffff ;
+    font-family:'Cantarell' ;
+    font-size: 14px;
+    width: 420px;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+.intro_black_panther a{
+    color: #ffff ;
+    font-family:'Cantarell' ; 
+
+}
+
+
+
+
+/* personnages */
+
+    #acteurs-secondaire{
+        /* border:6px solid aqua; */
+        margin-left: 20px;
+    
+    }
+    .bloc-acteurs{
+        display: flex;
+        background-color:#021740;
+        /* #07338C; */
+        justify-content: end; 
+        margin-top: -300px; 
+    }
+    .description{
+        margin: 0px 20px;
+        margin-top: 30px;
+        text-align: justify;
+    }
+    .acteur1, .acteur2, .acteur3{
+        display: flex;
+    
+    }
+    .acteur1 p, .acteur2 p, .acteur3 p{
+        width: 300px;
+        color: #ffff;
+        font-family:'Cantarell' ;
+        font-size: 14px;
+
+    }
+    .acteur1 h2, .acteur2 h2 , .acteur3 h2 {
+        color: #9E91B7;
+        font-family:'BEYNO';
+        margin-bottom: 10px;
+    
+        
+    }
+    .acteur1 a, .acteur2  a, .acteur3 a {
+        color: #ffff;
+        font-family:'Cantarell' ;   
+    }
+    .image_killmonger{
+        margin-left: 40px;
+    
+    }
+
+
+
+
+/* section histoire */
+.bloc_histoire{
+    display: flex;
+    /* border: 2px solid rgb(16, 168, 21); */
+    margin:0px 100px ;
+    margin-top: 200px;
+    gap: 100px;
+}
+.Suite_histoire{
+    display: flex;
+    /* border: 2px solid rgb(16, 168, 21); */
+    margin:0px 100px ;
+    gap: 100px;
+}
+.image_protecteur_justicier img{
+    /* border: 2px solid rgb(16, 168, 21); */
+    width: 449px;
+    height: 375px;
+    margin-top: 100px;
+}
+.composition{
+    text-align: center;
+   
+    /* margin: 100px 100px; */
+    /* border: 2px solid rgb(128, 66, 0); */
+    
+}
+.composition .naissance p ,.vengeur p,.protecteur_justicier p{
+    color: #ffff;
+    font-size: 14px;
+    font-family:'Cantarell' ;
+    text-align: justify;
+   
+}
+.composition .naissance .citation ,.vengeur .citation ,.protecteur_justicier .citation {
+    
+    font-size: 11px;   
+  font-style: italic;
+}
+.composition h2,.protecteur_justicier h2{
+    color: #9E91B7 ;
+    font-family:'BEYNO' ;
+    font-size: 25px;
+    margin:20px 0px;
+    text-align: left;
+
+}
+
+/* .bloc-personalite{
+    border: 2px solid green;
+} */
+.personnalite{
+    background-color: #ffff;
+    width: 450px;
+    padding-top: 300px;
+    margin-top: -280px;
+    border-radius: 10px;
+    padding-bottom: 80px;
+    /* margin-bottom: 100px; */
+   
+    
+}
+.personnalite p ,.liens{
+
+    margin:0px 40px;
+    margin-bottom:10px ;
+    
+}
+.personnalite .liens {
+
+    
+   display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 40px;
+    
+}
+.personnalite .liens li{
+    background-color: #3D2DA6;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    padding-top: 15px;
+
+}
+
+.personnalite .liens a {
+    text-decoration: none;
+    color: #ffff;
+   
+    
+    
+}
+.personnalite h3{
+
+    text-align: center;
+    margin-bottom:20px ;
+    font-family:'Cantarell' ;
+    
+}
+.personnalite-image{
+    display: flex;
+    /* margin-top: 80px; */
+    margin-left: 25px;
+    
+}
+
+/* section contact */
+#contact{
+
+    background-image: url('Illustrations + Logo/Accueil/Pantherhome7.png');
+    height:800px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container_form{
+        background:linear-gradient(to bottom, rgba(255,255,255, 1),rgba(255,255,255,0.2));
+        margin: 100px 350px;
+        padding: 50px 100px;
+        text-align: center;
+        border-radius: 100px;
+       
+}
+.container_form .nom {
+       height: 40px;
+       width: 400px;
+       margin-top: 20px;
+       border-radius: 20px;
+       background-color: transparent;
+}
+.container_form .email {
+       height: 40px;
+       width: 400px;
+       margin-top: 10px;
+       border-radius: 20px;
+       background-color: transparent;
+}
+.container_form .message {
+       height: 180px;
+       width: 400px;
+       margin-top: 20px;
+       border-radius: 30px;
+       background-color: transparent;
+
+}
+
+.container_form button{
+       height: 54px;
+       width: 178px;
+       border: none;
+       background-color: #F2CEF2;
+       border-radius: 20px;
+       margin-top: 20px;
+       
+
+}
+.container_form button:hover{
+    box-shadow:0 0 20px  #021740;
+}
+.p-intervention{
+    font-size: 14px;
+    font-family:'Cantarell' ;
+    /* text-align: center; */
+}
+.h-contact{
+    font-size: 30px;
+    font-family:'Cantarell' ;
+    /* text-align: center; */
+}
+.container_form input::placeholder
+{
+     padding-left: 30px;
+    
+}
+.banner-bottom{
+   
+   background-color: rgba(0,0,0,0.5);
+   height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%) scale(0.1);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  
+  .fade-in-left {
+    opacity: 0;
+    animation: fadeInLeft 1s ease-out forwards;
+  }
+  
+  .fade-in-left:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .fade-in-left:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .fade-in-left:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  
+  /* Continuez à ajouter des délais pour chaque élément si nécessaire */
+  .banner-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0;
+}
+
+.banner {
+    white-space: nowrap;
+    position: absolute;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from { left: -100%; }
+    to { left: 100%; }
+}
